@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: system-ui, Helvetica, Arial, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: aliceblue;
+    overflow-x: hidden;
+}
+
+.containner{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    column-gap: 20px;
+    row-gap: 80px;
+    margin: 40px;
+    margin-left: 7%;
+}
+
+.para{
+    background-color: lightseagreen;
+    padding: 20%;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.para:hover{
+   border-radius: 0%;
+}
